@@ -19,8 +19,7 @@ function showTime() {
         am_pm = "AM";
     }
  
-    hour =
-        hour < 10 ? "0" + hour : hour;
+    hour = hour < 10 ? "0" + hour : hour;
     min = min < 10 ? "0" + min : min;
     sec = sec < 10 ? "0" + sec : sec;
  
@@ -33,9 +32,7 @@ function showTime() {
         am_pm;
  
     // Displaying the time
-    document.getElementById(
-        "clock"
-    ).innerHTML = currentTime;
+    document.getElementById("clock").innerHTML = currentTime;
 }
  
 showTime();
